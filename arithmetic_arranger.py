@@ -63,7 +63,7 @@ def calculate(question,diplay_anwers=None):
             else:
                 fourth_row.append('  '+answers[i])
 
-        final = '    '.join(first_row)+'\n'+'    '.join(second_row)+'\n'+'    '.join(third_row)+'\n'+'    '.join(fourth_row)
+        arranged_problems = '    '.join(first_row)+'\n'+'    '.join(second_row)+'\n'+'    '.join(third_row)+'\n'+'    '.join(fourth_row)
 
-    return final
+    return arranged_problems
 
