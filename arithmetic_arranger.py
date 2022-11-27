@@ -67,4 +67,3 @@ def calculate(question,diplay_anwers=None):
 
     return final
 
-print(calculate(question,True))
